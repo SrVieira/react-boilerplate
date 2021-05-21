@@ -1,0 +1,9 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "React boilerplate using Context Api, Jest, Material UI, React Routers and Styled Components",
+  "main": "index.js",
+  "repository": "https://github.com/SrVieira/react-boilerplate",
+  "author": "SrVieira",
+  "license": "MIT"
+}
