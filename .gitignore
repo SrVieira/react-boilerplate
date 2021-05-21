@@ -1,3 +1,6 @@
+# Build files
+.next/
+
 # Node modules/dependencies installed
 node_modules/
 

@@ -16,5 +16,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
   }
 }
