@@ -1,1 +1,5 @@
+# Node modules/dependencies installed
+node_modules/
+
+# Logs
 yarn-error.log
