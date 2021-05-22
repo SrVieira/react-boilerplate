@@ -4,5 +4,8 @@
 # Node modules/dependencies installed
 node_modules/
 
-# Logsg
+# Logs
 yarn-error.log
+
+# .vscode
+.vscode/
