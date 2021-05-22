@@ -1,11 +1,16 @@
-import { NextPage } from 'next'
+// Components
+import { Seo } from '../Seo'
 
-const withLayout: React.ReactNode = (Page: NextPage) => {
+// Interfaces
+import { ILayout } from '../../interfaces/layout.interface'
+
+const Layout: React.FC<ILayout> = ({ children }) => {
   return (
-    <>
-      <Page />
-    </>
+    <div>
+      <Seo />
+      {children}
+    </div>
   )
 }
 
-export default withLayout
+export default Layout

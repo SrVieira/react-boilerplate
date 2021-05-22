@@ -1,5 +1,8 @@
 import { NextPage } from 'next'
 
-const Home: NextPage = () => <>Home</>
+// Components
+import { Layout } from '../components/Layout'
+
+const Home: NextPage = () => <Layout>Home</Layout>
 
 export default Home
