@@ -1,9 +1,5 @@
-import React from 'react'
+import { NextPage } from 'next'
 
-const Dashboard = () => (
-    <>
-        Dashboard
-    </>
-)
+const Dashboard: NextPage = () => <>Dashboard</>
 
 export default Dashboard

@@ -1,11 +1,11 @@
-import React from 'react'
+import { NextPage } from 'next'
 
-const withLayout = (Page) => (props) => {
-    return (
-        <>
-            <Page />
-        </>
-    )
+const withLayout: React.ReactNode = (Page: NextPage) => {
+  return (
+    <>
+      <Page />
+    </>
+  )
 }
 
 export default withLayout

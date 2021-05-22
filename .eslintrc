@@ -46,7 +46,7 @@
               "allowConciseArrowFunctionExpressionsStartingWithVoid": true
             }
           ],
-          "prettier/prettier": ["error", {}, { "usePrettierrc": true }] // Includes prettierrc rules
+          "prettier/prettier": ["error", { "endOfLine": "auto" }, { "usePrettierrc": true }] // Includes prettierrc rules
         }
       }
     ]

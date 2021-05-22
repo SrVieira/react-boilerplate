@@ -1,10 +1,10 @@
 export const routes = [
-    {
-        name: "Home",
-        path: "/"
-    },
-    {
-        name: "Dashboard",
-        path: "/dashboard"
-    },
+  {
+    name: 'Home',
+    path: '/',
+  },
+  {
+    name: 'Dashboard',
+    path: '/dashboard',
+  },
 ]

@@ -1,9 +1,5 @@
-import React from 'react'
-
-const Seo = () => (
-    <>
-        Seo
-    </>
-)
+const Seo: React.ReactNode = () => {
+  return <div>teste</div>
+}
 
 export default Seo
