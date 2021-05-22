@@ -1,7 +1,5 @@
-import { NextPage } from 'next'
-
 export interface IContext {
-  children: NextPage
+  children: React.ReactNode
   title: string
   description: string
 }
