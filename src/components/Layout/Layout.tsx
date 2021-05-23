@@ -4,12 +4,18 @@ import { Seo } from '../Seo'
 // Interfaces
 import { ILayout } from '../../interfaces/layout.interface'
 
+// Styles
+import { GlobalStyles } from './styles'
+
 const Layout: React.FC<ILayout> = ({ children }) => {
   return (
-    <div>
-      <Seo />
-      {children}
-    </div>
+    <>
+      <GlobalStyles />
+      <div>
+        <Seo />
+        {children}
+      </div>
+    </>
   )
 }
 
