@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
     * {
@@ -11,4 +11,8 @@ export const GlobalStyles = createGlobalStyle`
     a {
         text-decoration: none;
     }
+`
+
+export const Container = styled.div`
+  display: flex;
 `
