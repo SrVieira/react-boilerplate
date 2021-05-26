@@ -1,6 +1,6 @@
 // Components
 import { Content } from '../Content'
-import { Header } from '../Header'
+import { TopBar } from '../TopBar'
 import { Seo } from '../Seo'
 import { SideBar } from '../SideBar'
 
@@ -16,7 +16,7 @@ const Layout: React.FC<ILayout> = ({ children }) => {
       <GlobalStyles />
       <Container>
         <Seo />
-        <Header />
+        <TopBar />
         <SideBar />
         <Content>{children}</Content>
       </Container>

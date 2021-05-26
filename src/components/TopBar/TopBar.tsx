@@ -2,7 +2,7 @@
 import { Toolbar, AppBar, IconButton, Typography } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 
-const Header: React.FC = () => {
+const TopBar: React.FC = () => {
   return (
     <AppBar position="absolute">
       <Toolbar>
@@ -17,4 +17,4 @@ const Header: React.FC = () => {
   )
 }
 
-export default Header
+export default TopBar
