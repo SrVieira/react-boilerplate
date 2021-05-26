@@ -1,13 +1,11 @@
 // Components
 import { Content } from '../Content'
+import { Header } from '../Header'
 import { Seo } from '../Seo'
 import { SideBar } from '../SideBar'
 
 // Interfaces
 import { ILayout } from '../../interfaces/layout.interface'
-
-// Material UI
-import AppBar from '@material-ui/core/AppBar'
 
 // Styles
 import { Container, GlobalStyles } from './styles'
@@ -18,7 +16,7 @@ const Layout: React.FC<ILayout> = ({ children }) => {
       <GlobalStyles />
       <Container>
         <Seo />
-        <AppBar position="absolute">appbar</AppBar>
+        <Header />
         <SideBar />
         <Content>{children}</Content>
       </Container>
